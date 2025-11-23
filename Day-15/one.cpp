@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 // Convert 'a' to 'A'
-
 char convert(char name)
 {
     char ans = name-'a'+'A';
