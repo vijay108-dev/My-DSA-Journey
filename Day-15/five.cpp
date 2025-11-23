@@ -17,6 +17,7 @@ int main(){
         cout<<"First player wins"<<endl;
     else
         cout<<"First player loses"<<endl;
+        
 
     return 0;
 }
