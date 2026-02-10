@@ -20,6 +20,7 @@ int peakIndexMountainArray(int arr[],int n)
     }
     return -1;
 }
+
 int main() 
 {
     int arr[]={2, 4, 6, 8, 10, 8, 5};
