@@ -40,7 +40,6 @@ using namespace std;
         }
         return ans;
     }
-
 int main(){
     int n,k;
 
