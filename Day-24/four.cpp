@@ -15,7 +15,6 @@ int findKthPositive(int arr[], int n, int k)
             start = mid+1;
         }
     }
-
     //Final answer
     return ans + k;
 }
