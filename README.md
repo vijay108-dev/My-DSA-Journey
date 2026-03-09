@@ -1,4 +1,4 @@
-# 📘 180 Days of DSA – Code Assignment Sheet
+#  180 Days of DSA – Code Assignment Sheet
 
 This repository contains my solutions to the **180 Days of DSA Code Assignment Sheet** inspired by **Rohit Negi Bhaiya’s YouTube DSA series**.
 
@@ -6,7 +6,7 @@ The goal of this repository is to build **strong Data Structures & Algorithms fu
 
 ---
 
-## 🎯 Purpose of This Repository
+##  Purpose of This Repository
 
 - To maintain **daily DSA practice**
 - To improve **problem-solving skills**
