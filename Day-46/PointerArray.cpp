@@ -10,7 +10,6 @@ int main(){
     cout<<&arr[0]<<endl; //0x16cffebb0
     cout<<ptr<<endl; //0x16f10ebb0
 
-
     //Print the address of second element or first index
     cout<<arr+1<<endl; //0x16b842bb4
     cout<<arr+2<<endl; //0x16bbc6bb8
