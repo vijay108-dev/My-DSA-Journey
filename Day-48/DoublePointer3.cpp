@@ -4,6 +4,7 @@ using namespace std;
         p1 = p2;
         *p1=2;
     }
+    
 int main(){
     int i=0, j =1;
     second(&i,&j);
