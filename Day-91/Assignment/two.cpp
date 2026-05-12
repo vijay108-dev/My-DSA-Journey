@@ -1,0 +1,47 @@
+#include <iostream>
+#include <vector>
+#include <stack>
+using namespace std;
+int calPoints(vector<string>& operations)
+{
+    stack<int>st;
+    for(int i=0; i<operations.size();i++)
+    {
+        if(operations[i] == "C")
+        {
+            st.pop();
+        }
+        else if(operations[i] == "D")
+        {
+            st.push(st.top()*2);
+        }
+        else if(operations[i] == "+")
+        {
+            int first = st.top();
+            st.pop();
+
+            int second = st.top();
+            st.push(first);
+            st.push(first+second);
+        }
+        else
+        {
+            st.push(stoi(operations[i]));
+        }
+    }
+
+    int sum= 0;
+    while(!st.empty())
+    {
+        sum+=st.top();
+        st.pop();
+    }
+    return sum;
+}
+
+int main(){
+    vector<string>operations = {"5","2","C","D","+"};
+    cout<<calPoints(operations)<<endl;
+
+    return 0;
+}
