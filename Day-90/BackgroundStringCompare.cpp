@@ -3,7 +3,6 @@
 using namespace std;
 vector<int> bracketNumbers(string s) 
 {
-
     vector<int>ans;
     int count=0;
     for(int i=0;i<s.size();i++)
